@@ -40,7 +40,7 @@ const Dashboard = () => {
             <h4>Pokemons</h4>
             <Container>
                 <Row>
-                    <Col xs={7} className="px-0">
+                    <Col md={7} className="px-0">
                         {
                             pokemonList && pokemonList.results && pokemonList.results.map((pokemon, idx) => (
                                 <div key={idx} className="list-item px-2 py-1 cursor-pointer" onClick={() => loadDetails(pokemon)}>

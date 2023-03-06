@@ -64,7 +64,7 @@ const App = () => {
                     All the Pokémon data you'll ever need in one place,
                     easily accessible through a modern RESTful API.
                 </Col>
-                <Col xs={10}>
+                <Col md={10}>
                     <Dashboard />
                 </Col>
             </Row>
