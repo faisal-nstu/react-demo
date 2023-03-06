@@ -11,6 +11,6 @@ cd react-demo
 ```
 then-
 ```bash
-$ yarn install          # install dependencies
-$ yarn start            # development build
+yarn install          # install dependencies
+yarn start            # development build
 ```
