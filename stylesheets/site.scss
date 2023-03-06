@@ -13,15 +13,19 @@
 
 .header {
     background-color: $primary-color;
-    color: whitesmoke;
+    color: $secondary-color-lighter;
 }
 
 .side-panel {
     background-color: $primary-color-light;
-    color: white;
+    color: $secondary-color-lighter;
 }
 
 .footer {
     background-color: $secondary-color-light;
-    color: white;
+    color: $primary-color;
+}
+
+.text-primary {
+    color: $primary-color !important;
 }
