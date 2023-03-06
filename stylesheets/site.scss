@@ -1,0 +1,27 @@
+.loader {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    z-index: 100000;
+    color: white;
+}
+
+.header {
+    background-color: $primary-color;
+    color: whitesmoke;
+}
+
+.side-panel {
+    background-color: $primary-color-light;
+    color: white;
+}
+
+.footer {
+    background-color: $secondary-color-light;
+    color: white;
+}
